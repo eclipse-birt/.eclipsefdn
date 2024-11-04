@@ -56,6 +56,7 @@ orgs.newOrg('eclipse-birt') {
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/",
       has_discussions: true,
+      homepage: "https://eclipse-birt.github.io/birt-website/",
       private_vulnerability_reporting_enabled: true,
       web_commit_signoff_required: false,
       workflows+: {
