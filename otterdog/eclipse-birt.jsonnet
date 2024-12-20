@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-birt') {
+orgs.newOrg('technology.birt', 'eclipse-birt') {
   settings+: {
     description: "",
     name: "Eclipse BIRT™ (Business Intelligence and Reporting Tools)",
